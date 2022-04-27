@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Glenrothes
-{
-    public interface ITestingDataDirectoryPathProvider
+{[ServiceDefinitionMarker]
+    public interface ITestingDataDirectoryPathProvider:IServiceDefinition
     {
         string GetTestingDataDirectoryPath();
     }
